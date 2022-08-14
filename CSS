@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("Background.jpg");
+    background-size: cover;
+}
+
+.navbar{
+
+    background: linear-gradient(to left,#1f1c18 10%, #8e0e00 50%, #1f1c18 90%);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar-logo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom:-130px ;
+}
+
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar_item{
+    height: 80px;
+}
+
+.navbar__links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 100%;
+    text-decoration: none;
+    transition: all 1.0s ease;
+    margin: 1px;
+
+}
+
+.navbar_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    text-decoration: none;
+
+}
+
+.button{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    background: linear-gradient(to right, #a73737, #7a2828);
+    transition: all 0.9s ease;
+}
+
+.navbar__links:hover{
+    color:#993636;
+    transition: all 0.5s ease;
+}
+
+.button:hover{
+    background: linear-gradient(to right, #c55858, #ac3b3b);
+    transition: all 0.5s ease;
+}
+
+.title1{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    left: 97px;
+    font-size: larger;
+
+}
+
+.title2{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    right: 87px;
+    font-size:larger;
+
+}
+
+.crt{
+    transition: all 2.0s ease;
+}
+
+.crt:hover{
+    transition: all 2.0s ease;
+    position: relative;
+    bottom: 7px;
+}
