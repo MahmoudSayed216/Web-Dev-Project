@@ -7,12 +7,12 @@
 }
 
 body{
-    background-image: url("Background.jpg");
-    background-size: cover;
+    /*background-image: url("background.jpg");
+    background-size: cover;*/
+    background-color: #fff;
 }
 
 .navbar{
-
     background: linear-gradient(to left,#1f1c18 10%, #8e0e00 50%, #1f1c18 90%);
     height: 90px;
     width: 100%;
@@ -23,6 +23,7 @@ body{
     position: sticky;
     top:0;
     z-index: 999;
+    box-shadow: -200px #1f1c18;
 }
 
 .navbar-container{
@@ -64,7 +65,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 125px;
+    width: 120px;
     height: 100%;
     text-decoration: none;
     transition: all 1.0s ease;
@@ -114,9 +115,11 @@ body{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    position: relative;
-    left: 97px;
+    /* position: relative;
+    left: 97px; */
+    margin-right: -80px ;   /*updated*/
     font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -126,9 +129,11 @@ body{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    position: relative;
-    right: 87px;
+    /* position: relative;
+    right: 87px; */
+    margin-left: -80px ;    /*updated*/
     font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -140,4 +145,192 @@ body{
     transition: all 2.0s ease;
     position: relative;
     bottom: 7px;
+}
+
+
+.ss-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:0;
+}
+
+.ig{
+    width: 500px;
+    height: 333px;
+    display: none;
+    z-index: -1;
+}
+
+.a{
+    display: block;
+}
+
+
+
+.images-container{
+    background: linear-gradient(to right, #ed213a, #93291e);
+    padding: 3px;
+}
+
+.article{
+    background:rgb(240, 238, 238);
+    width: 90%;
+    margin-left: 56px;
+    padding:15px ;
+    margin-bottom: 40px;
+    border-radius: 2px;
+
+
+}
+
+.btn{
+    padding: 15px;
+    background:rgb(240, 238, 238);
+    border: 0px;
+    transition:all 0.3s ease;
+}
+
+#btn1:hover{
+    background:#c92d12 ;
+    position: relative;
+    right: 5px;
+    transition:all 0.3s ease;
+}
+
+#btn2:hover{
+    background:#c92d12 ;
+    position: relative;
+    left: 5px;
+    transition:all 0.3s ease;
+}
+
+
+.section{
+    text-align: center;
+}
+
+.top-products{
+    display: flex;
+    text-align: center; 
+}
+
+.meal-holder{
+    max-width: 25%;
+    padding: 10px;
+    margin: 2px;
+}
+
+.meal-name{
+    margin: 25px;
+}
+
+.price,.order-now{
+    border: 2px solid rgb(240, 34, 34);
+    padding: 8px;
+    margin: 4px 4px 4px -4px;
+}
+
+.price{
+    color: rgb(240, 34, 34);
+    text-decoration: none;
+    background-color: white;
+    border-right: 0px;
+}
+
+.order-now{
+    background-color:rgb(240, 34, 34);
+    color: white;
+    text-decoration: none;
+    border-left: 0px;
+}
+.price:hover{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(240, 34, 34);
+}
+
+.order-now:hover{
+    background-color:white;
+    color: rgb(240, 34, 34);
+    text-decoration: none;
+}
+
+
+.article-title{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.categories{
+    display: flex;
+
+}
+
+.cat{
+    width: 25%;
+}
+
+
+.cn{
+    text-decoration: none;
+    color: rgb(190, 163, 4);
+}
+
+.footer{
+    background-color: rgb(66, 65, 65);
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+
+}
+
+#facebook{
+    width: 16px;
+    height: 30px;
+}
+#twitter{
+    width: 37px;
+    height: 30px;
+}
+#instagram{
+    width: 30px;
+    height: 30px;
+}
+#youtube{
+    width: 40px;
+    height: 30px;
+}
+
+#contact{
+    width: 22px;
+    height: 30px;
+}
+
+
+.logos{
+    margin: 10px;
+    width: 20%;
+}
+
+.logos{
+    margin-top: 45px;
+}
+
+.contact-icons{
+    width: 35%;
+    display: flex;
+    padding: 20px;
+}
+
+.logos{
+    transition: all 0.3s ease;
+}
+
+.logo:hover{
+    background-color:#c92d12 ;
+    border: 3px solid #c92d12;
+    transition: all 0.3s ease;
 }
