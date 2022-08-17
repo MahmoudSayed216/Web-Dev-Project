@@ -1,0 +1,36 @@
+ <!--Navigation bar -->
+    <body>
+        <nav class="navbar">
+            <div class="navbar-container">
+
+                <ul class="navbar__menu">
+                    <li class="navbar_item"><a href="#home" class="navbar__links" id="home-page">Home</a></li>
+                    <li class="navbar_item"><a href="#Account" class="navbar__links" id="Account">Account</a></li>
+                    <li><a href="#menu" class="navbar__links" id="menu_page">Menu</a></li>
+                </ul>
+
+                    <a href="#home" class="title1"><h1>Chick</h1></a>
+                    <a href="#home" id="navbar-logo"><img src="logo7.png" id="logo" width="164px" height="237px"  alt=""></a>
+                    <a href="#home" class="title2"><h1>Out</h1></a>
+                    
+                <ul class="navbar__menu">
+                    <li><a href="cart"class="navbar__links crt" id="#cart-page" alt=""><img src="cart 2.png" width="65px" height="58px"></a></li>
+                    <li class="navbar_item"><a href="#About us" class="navbar__links" id="About-page">About Us</a></li>
+                    <li class="navbar_btn"><a href="#sign-up" class="button" id="sign-up">Sign Up</a></li>
+                </ul>
+
+            </div>
+        </nav>
+        
+      <!--Footer -->
+    <footer class="footer">
+        <div class="contact-icons">
+            <div class="logos"><a href="#fb"><img src="Facebook logo 2.png" class="logo" id="facebook" alt=""></a> <br></div>
+            <div class="logos"><a href="#twt"><img src="Twitter logo.png" class="logo" id="twitter" alt=""></a> <br></div>
+            <div class="logos"><a href="#insta"><img src="Instagram logo.png" class="logo" id="instagram" alt=""></a> <br></div>
+            <div class="logos"><a href="#yt"><img src="Youtube logo.png" class="logo" id="youtube" alt=""></a> <br></div>
+            <div class="logos"><a href="#ct"><img src="Contact logo.png" class="logo" id="contact" alt=""></a> <br></div>
+            
+        </div>
+
+    </footer>
